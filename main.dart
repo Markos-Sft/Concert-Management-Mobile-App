@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'homepage.dart';
-import 'Register.dart';
-import 'login.dart';
+import 'screens/homepage.dart';
+import 'screens/register.dart';
+import 'screens/login.dart';
+import 'screens/concert.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const Homepage(),
         '/login': (context) => const Login(),
         '/register': (context) => const Register(),
+        '/concert': (context) => const ConcertDetailsPage(),
       },
     );
   }
