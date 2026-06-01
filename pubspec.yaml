@@ -1,0 +1,43 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0-113.2.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.5 
+  qr_flutter: ^4.1.0       
+  google_maps_flutter: ^2.17.0
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    
+    - assets/img/home_1.jpeg
+    - assets/img/screen_2.jpg
+    - assets/img/tedy 1.jpg
+    - assets/img/tedy2.jpg
+    - assets/img/banners/concert 1.png
+    - assets/img/banners/concert 2.png
+    - assets/img/banners/concert 3.png
+    - assets/img/Rophnan.jpg
+    - assets/img/Zerubabbel.jpg
+    - assets/img/Yohana.jpg
+    - assets/img/Dawit.jpg
+    - assets/img/Betty.jpg
+    - assets/img/Sami.jpg
+    
